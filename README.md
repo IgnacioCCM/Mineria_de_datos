@@ -7,6 +7,6 @@
 ### <p align="center"> Materia: 	Datos Masivos (BDD-1704 SC9A	).</p>
 
 ### <p align="center">  Maestro: Jose Christian Romero Hernandez	</p>
-### <p align="center">  No. de control y nombre del alumno: 15211916 - Vargas Garcia Cinthia Gabriela</p>
+### <p align="center">  No. de control y nombre del alumno:  - </p>
 ### <p align="center">  No. de control y nombre del alumno: 15210743 - Vasquez Macias Cristo Josue</p>
 
