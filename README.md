@@ -25,5 +25,4 @@
 &nbsp;&nbsp;&nbsp;[Investigation 1 ](#Investigation-1) 
 
 &nbsp;&nbsp;&nbsp;[Test 1 ](#Test-1)
-Trabajos de la clase
 
