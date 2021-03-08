@@ -10,5 +10,5 @@
 ### <p align="center">  Maestro: Jose Christian Romero Hernandez	</p>
 ### <p align="center">  No. de control y nombre del alumno:  - </p>
 ### <p align="center">  Vasquez Macias Cristo Josue</p>
-### <p align="center">  Campos Morales Carlos Ignacio</p>
+### <p align="center"> 15211277 Campos Morales Carlos Ignacio</p>
 
