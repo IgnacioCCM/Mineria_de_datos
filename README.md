@@ -1,13 +1,13 @@
 # ![](https://images.cooltext.com/5511585.png)
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
-### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO INSTITUTO TECNOLÓGICO DE TIJUANA SUBDIRECCIÓN ACADÉMICA DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN PERIODO: Agosto-Diciembre  2020</p>
+### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO INSTITUTO TECNOLÓGICO DE TIJUANA SUBDIRECCIÓN ACADÉMICA DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN PERIODO: Febrero-Junio  2021</p>
 
 ###  <p align="center">  Carrera: Ing. En Sistemas Computacionales. 
 ### <p align="center"> Materia: 	Datos Masivos (BDD-1704 SC9A	).</p>
 
 ### <p align="center">  Maestro: Jose Christian Romero Hernandez	</p>
 ### <p align="center">  No. de control y nombre del alumno: 15211916 - Vargas Garcia Cinthia Gabriela</p>
-### <p align="center">  No. de control y nombre del alumno: 16210561 - Oliver Cardenas Jesus Alejandro</p>
+### <p align="center">  No. de control y nombre del alumno: 15210743 - Vasquez Macias Cristo Josue</p>
 
 ## Index
 &nbsp;&nbsp;&nbsp;[Practice 1](#practice-1)  
