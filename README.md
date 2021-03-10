@@ -1,14 +1,10 @@
 ![](https://images.cooltext.com/5511731.png)
 
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
-<<<<<<< HEAD
 
-### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO INSTITUTO TECNOLÓGICO DE TIJUANA SUBDIRECCIÓN ACADÉMICA DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN PERIODO: Febrero-Junio  2021</p>
-=======
 ### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO INSTITUTO TECNOLÓGICO DE TIJUANA </p> 
-###<p align="center" > SUBDIRECCIÓN ACADÉMICA DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN </p> 
-###<p align="center" > PERIODO: Febrero-Junio  2021</p>
->>>>>>> cc08e675994c040326e0331e5f7a243b6c045aa3
+<p align="center" > SUBDIRECCIÓN ACADÉMICA DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN </p> 
+<p align="center" > PERIODO: Febrero-Junio  2021</p>
 
 ###  <p align="center">  Carrera: Ing. En Sistemas Computacionales. 
 ### <p align="center"> Materia: 	Datos Masivos (BDD-1704 SC9A	).</p>
