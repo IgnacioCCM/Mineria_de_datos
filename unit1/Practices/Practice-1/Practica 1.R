@@ -19,8 +19,9 @@ Hint:
 ##### -------------------------------------------------------------------------- 
 
 #### 1.  Initialize sample size
-
-
+x<-rnorm(10)
+y <- dnorm(x,mean = 0, sd = 1)
+plot(x,y)
 
 #### 2. Initialize counter
 
