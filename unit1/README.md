@@ -17,7 +17,7 @@
 
 * ## Practices
   
-  * [Practice 1]()
+  * [Practice 1](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit1/unit1/Practices/Practice-1)
   * [Practice 2]()
   * [Practice 3]()
 
