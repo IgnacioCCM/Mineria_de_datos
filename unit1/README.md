@@ -9,17 +9,3 @@
 ### <p align="center">  No. de control y nombre del alumno: 15211277 - Campos Morales Carlos Ignacio</p>
 ### <p align="center">  No. de control y nombre del alumno: 15210743 - Vasquez Macias Cristo Josue</p>
 
-
-## Index
-
-* ## Evaluation
-  
-* ## Homework
-
-* ## Practices
-  
-  * [Practice 1]()
-  * [Practice 2]()
-  * [Practice 3]()
-
-* ## Research
