@@ -11,20 +11,18 @@
 ### <p align="center">  No. de control y nombre del alumno: 15211277 - Campos Morales Carlos Ignacio</p>
 ### <p align="center">  No. de control y nombre del alumno: 15210743 - Vasquez Macias Cristo Josue</p>
 
+
 ## Index
-&nbsp;&nbsp;&nbsp;[Practice 1](#practice-1)  
-&nbsp;&nbsp;&nbsp;[Practice 2](#practice-2)
 
-&nbsp;&nbsp;&nbsp;[Practice 3](#practice-3)    
-&nbsp;&nbsp;&nbsp;[Practice 4](#practice-4) 
+* ## Evaluation
+  
+* ## Homework
 
-&nbsp;&nbsp;&nbsp;[Practice 5](#practice-5) 
+* ## Practices
+  
+  * [Practice 1](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit1/unit1/Practices/Practice-1)
+  * [Practice 2]()
+  * [Practice 3]()
 
-&nbsp;&nbsp;&nbsp;[Practice GitHub](#practice-GitHub) 
-
-&nbsp;&nbsp;&nbsp;[Homework 1](#Homewok-1) 
-
-&nbsp;&nbsp;&nbsp;[Investigation 1 ](#Investigation-1) 
-
-&nbsp;&nbsp;&nbsp;[Test 1 ](#Test-1)
+* ## Research
 
