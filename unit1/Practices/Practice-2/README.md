@@ -2,8 +2,7 @@
 ---
 #### Practica 2
 
-#### Practice find 20 more functions in R and make an example of it.
-
+ Practice find 20 more functions in R and make an example of it.
 
 #### 1- Una funcion de suma
 
@@ -11,10 +10,7 @@ suma<-function(x,y){
     x+y
    }
 
-#### Example:
-
 suma(3,4)
-
 
  #### 2- Una funcion de resta
 
@@ -22,10 +18,7 @@ suma(3,4)
     x-y
    }
 
-## Example:
-
 resta(20,7)
-
 
 #### 3- 
 
@@ -41,32 +34,23 @@ potencia<-function(x,y){
      paste(x,"elevado a la potencia de", y, "es", result)
    }
 
-#### Example:
-
 potencia(3,5)
-[1] “3 elevado a la potencia de 5 es 243”
-
 
 #### 5- Round a number with the indicated decimals, if decimals are not indicated, it is rounded without decimals. When the decimal that follows the last one to be displayed is 5 or greater than five then the last decimal is approximated.
 
 round (6.78) 
-[1] 7
-
 
 #### 6- Remove the decimals of a number.
-#### Example:
 
 x <- 37.06
 trunc (x)
 
 #### 7- Shows the maximum number in a vector
-#### Example : 
 
 NUMBER <- 1:10
 max (NUMBER)
 
 #### 8- Command to rename the columns of a vector.
-#### Example:
 
 rownames (x) = c ("josue","Ignacio","Hurtado","Pepe")
 
@@ -77,7 +61,6 @@ t <- c ("one", "two","three")
 x; t
 
 #### 10- Allows you to assign names to the elements of a variable.
-#### Example:
 
 n <- c(5,10,15)
 names (n) <- c ("1RO","2DO","3RO")
@@ -91,22 +74,17 @@ Fun <- function(x,y) {
 }
 
 Fun(c(1,2,3),c(1,2,3))
-[1] 2 4 6
+
 
 #### 12- To edit the function
-#### Example:
 
 edit(Fun)
 
 #### 13- ls returns the names of the function's local variables
-## Example:
 
 ls()
-[1] "Fun"
-
 
 #### 14- rm can be used to remove objects
-#### Example:
 
 rm(fun)
 ls()
@@ -116,10 +94,8 @@ character(0)
 
 floor()
 
-#### Example:
-
 floor(5.87)
-[1] 5
+
 
 #### 16- This function returns a string in uppercase in this case we get as a result
 
@@ -128,26 +104,20 @@ toupper(cadena)
 #### Example:
 
 toupper(“hola”)
-[1] "HOLA"
+
 
 #### 17- To obtain the median of the vector
 
 median()
 
-#### Example: 
-
 vector = c(5,6,7,8,9)
 median(vector)
-[1] 7
 
 #### 18- shows the minimum value and maximum value in this case of the vector
 
 range()
-
-#### Example:
-
 range(vector)
-[1] 5 9
+
 
 #### 19- The unique values ​​of a vector are obtained, eliminating the records that are duplicated
 
@@ -157,19 +127,15 @@ unique()
 
 k = c(2,2,2,4,4,4)
 unique(k)
-[1] 2 4
+
 
 #### 20- To calculate the arithmetic mean or average of the vector
 
 mean()
-
-#### Example:
-
 mean(vector)
-[1] 7  
+
 
 #### Shows the first three data of a field or vector.
-##### Example:
 
 z <- 1:20
 head (z)
