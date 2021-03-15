@@ -1,9 +1,8 @@
-
----
 #### Practica 2
 
  Practice find 20 more functions in R and make an example of it.
 
+-----------
 #### 1- Una funcion de suma
 
 suma<-function(x,y){
@@ -75,7 +74,6 @@ Fun <- function(x,y) {
 
 Fun(c(1,2,3),c(1,2,3))
 
-
 #### 12- To edit the function
 
 edit(Fun)
@@ -95,7 +93,6 @@ character(0)
 floor()
 
 floor(5.87)
-
 
 #### 16- This function returns a string in uppercase in this case we get as a result
 
@@ -128,12 +125,10 @@ unique()
 k = c(2,2,2,4,4,4)
 unique(k)
 
-
 #### 20- To calculate the arithmetic mean or average of the vector
 
 mean()
 mean(vector)
-
 
 #### Shows the first three data of a field or vector.
 
@@ -145,7 +140,7 @@ head (z)
 x <- matrix (1: 9, ncol = 3, nrow = 3)
 x 
 
----
+-----------
 
 
 
