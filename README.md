@@ -4,7 +4,7 @@
 
 
 ### <p align="center">  No. de control y nombre del alumno:
-  15211277 - Campos Morales Carlos Ignacio</p>
-  15210743 - Vasquez Macias Cristo Josue</p>
+###  15211277 - Campos Morales Carlos Ignacio</p>
+###  15210743 - Vasquez Macias Cristo Josue</p>
 
 
