@@ -17,6 +17,7 @@ ______________
 * ## Evaluation
   
 * ## Homework
+[Homework_1](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit1/unit1/Homework)
 
 * ## Practices
   
@@ -25,4 +26,4 @@ ______________
   * [Practice 3](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit1/unit1/Practices/Practice3)
 
 * ## Research
-[Josue Investigation 1](https://github.com/IgnacioCCM/Mineria_de_datos/blob/unit1/unit1/Research/Vasquez_Macias_Cristo_Josue_15210743.md)
+[Research_1](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit1/unit1/Research)
