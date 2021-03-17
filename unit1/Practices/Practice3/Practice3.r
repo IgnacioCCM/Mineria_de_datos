@@ -16,14 +16,6 @@
 #- the best month - where the profit after tax was max for the year
 #- the worst month - where the profit after tax was min for the year
 
-#All results need to be presented as vectors.
-
-#Results for dollar values need to be calculate with $0.01 precision, but need to be presented in Units of $1,000(i.e. 1k) with no decimal point.#
-
-#Results for the profit margin ratio needed to be presented in units of % with no decimal points.
-
-#Note: Your collegue has warned you that it is okay for tax for any given month to be # negative (in accounting terms, negative tax translates into a deferred tax asset).
-
 ##### Hint 1
 #Use:
 #- round()
