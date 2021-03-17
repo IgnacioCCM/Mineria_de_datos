@@ -1,5 +1,5 @@
 * HOMEWORK 
-
+![alt text](https://prod-discovery.edx-cdn.org/media/programs/card_images/a9c7ab70-896c-496d-a411-d4f8b677041f-8eb3444a5e81.jpg)
 ## 1. What is data mining and what is it for?
 Data mining is a process of identifying relevant information extracted from large volumes of data, with the aim of discovering patterns and trends by structuring the information obtained in an understandable way for later use.
 It is a discipline that can contribute to business administration with respect to the relationship with the client, where specific contact can only be made with those who are more likely to respond positively to a certain offer or promotion. In the shopping habits in supermarkets, for example, it is related to the detection of the buying habits of customers on certain days where it will be evaluated which products they consume to focus the sale at that point. Data mining can also be useful for the human resources department of a company, where the characteristics of the employees who are more successful in their management are identified. This information can help the training and career plans of the people who are part of the organizations.
