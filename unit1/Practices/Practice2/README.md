@@ -44,33 +44,45 @@ potencia(3,5)
 
 #### 5- Round a number with the indicated decimals, if decimals are not indicated, it is rounded without decimals. When the decimal that follows the last one to be displayed is 5 or greater than five then the last decimal is approximated.
 
+~~~
 round (6.78) 
+~~~
 
 #### 6- Remove the decimals of a number.
 
+~~~
 x <- 37.06
 trunc (x)
+~~~
 
 #### 7- Shows the maximum number in a vector
 
+~~~
 NUMBER <- 1:10
 max (NUMBER)
+~~~
 
 #### 8- Command to rename the columns of a vector.
 
+~~~
 rownames (x) = c ("josue","Ignacio","Hurtado","Pepe")
+~~~
 
 #### 9- This function allows you to concatenate (join) objects.
 
+~~~
 x <- c (1,2,3)
 t <- c ("one", "two","three")
 x; t
+~~~
 
 #### 10- Allows you to assign names to the elements of a variable.
 
+~~~
 n <- c(5,10,15)
 names (n) <- c ("1RO","2DO","3RO")
 n
+~~~
 
 #### 11- Return values ​​from a function
 
