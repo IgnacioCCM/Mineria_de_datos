@@ -9,32 +9,38 @@
 suma<-function(x,y){
     x+y
    }
-~~~
+
 suma(3,4)
+~~~
 
  #### 2- Una funcion de resta
 
+~~~
  resta<-function(x,y){
     x-y
    }
 
 resta(20,7)
+~~~
 
 #### 3- 
 
+~~~
 x <- c (1,2,3,4,5)
 t <- c ("uno", "two","three","four","five")
 x;t
-
+~~~
 
 #### 4- 
 
+~~~
 potencia<-function(x,y){
      result<-x^y
      paste(x,"elevado a la potencia de", y, "es", result)
-   }
+   }   
 
 potencia(3,5)
+~~~
 
 #### 5- Round a number with the indicated decimals, if decimals are not indicated, it is rounded without decimals. When the decimal that follows the last one to be displayed is 5 or greater than five then the last decimal is approximated.
 
