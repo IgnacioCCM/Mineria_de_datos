@@ -1,9 +1,10 @@
-#### Practica 2
+## Practica 2
 
  Practice find 20 more functions in R and make an example of it.
 
 -----------
-#### 1- Una funcion de suma
+### 1- Una funcion de suma
+
 
 suma<-function(x,y){
     x+y
