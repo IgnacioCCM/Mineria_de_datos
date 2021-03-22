@@ -86,66 +86,83 @@ n
 
 #### 11- Return values ​​from a function
 
+~~~
 ##Example:
 Fun <- function(x,y) {
   return(x+y)
 }
 
 Fun(c(1,2,3),c(1,2,3))
+~~~
 
 #### 12- To edit the function
 
+~~~
 edit(Fun)
+~~~
 
 #### 13- ls returns the names of the function's local variables
 
+~~~
 ls()
+~~~
 
 #### 14- rm can be used to remove objects
 
+~~~
 rm(fun)
 ls()
 character(0)
+~~~
 
 #### 15- Returns the first smallest integer of x
 
+~~~
 floor()
 
 floor(5.87)
+~~~
 
 #### 16- This function returns a string in uppercase in this case we get as a result
 
+~~~
 toupper(cadena)
 
 #### Example:
 
 toupper(“hola”)
-
+~~~
 
 #### 17- To obtain the median of the vector
 
+~~~
 median()
 
 vector = c(5,6,7,8,9)
 median(vector)
+~~~
 
 #### 18- shows the minimum value and maximum value in this case of the vector
 
+~~~
 range()
 range(vector)
-
+~~~
 
 #### 19- The unique values ​​of a vector are obtained, eliminating the records that are duplicated
 
+~~~
 unique() 
 
 #### Example: 
 
 k = c(2,2,2,4,4,4)
 unique(k)
+~~~
 
 #### 20- To calculate the arithmetic mean or average of the vector
 
+~~~
 mean()
 mean(vector)
 
@@ -158,7 +175,7 @@ head (z)
 
 x <- matrix (1: 9, ncol = 3, nrow = 3)
 x 
-
+~~~
 -----------
 
 
