@@ -171,7 +171,7 @@ mean(vector)
 z <- 1:20
 head (z)
 
-#### Create a two-dimensional array, a and b mark a range of data and the ncol and nrow commands, columns and rows respectively.
+*Create a two-dimensional array, a and b mark a range of data and the ncol and nrow commands, columns and rows respectively.*
 
 x <- matrix (1: 9, ncol = 3, nrow = 3)
 x 
