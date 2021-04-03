@@ -9,6 +9,10 @@ Life_Expectancy_At_Birth_2013 <- c(75.3286585365854,60.0282682926829,51.86617073
 DataCsv <- read.csv(file.choose())
 DataCsv
 
+#A new dataframe is created with the vector data
+Newdata <- data.frame(Code=Country_Code, Expectancy_1960=Life_Expectancy_At_Birth_1960, Expectancy_2013=Life_Expectancy_At_Birth_2013)
+Newdata
+
 #display dataset data by dates of the year
 install.packages("ggplot2")
 library(ggplot2)
