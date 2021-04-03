@@ -13,6 +13,17 @@ DataCsv
 Newdata <- data.frame(Code=Country_Code, Expectancy_1960=Life_Expectancy_At_Birth_1960, Expectancy_2013=Life_Expectancy_At_Birth_2013)
 Newdata
 
+#The new dataframe is merged with the existing one for each year
+merge_1960 <- merge(data_1960, Newdata, by.x= "Country.Code", by.y="Code")
+merge_1960
+
+merge_1960$Expectancy_2013 <- NULL
+
+merge_2013 <- merge(data_2013, Newdata, by.x= "Country.Code", by.y="Code")
+merge_2013
+
+merge_2013$Expectancy_1960 <- NULL
+
 #display dataset data by dates of the year
 install.packages("ggplot2")
 library(ggplot2)
