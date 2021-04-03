@@ -1,4 +1,4 @@
-#Evaluation Practice 5
+#Evaluation Practice
 
 #Execute below code to generate three new vectors
 Country_Code <- c("ABW","AFG","AGO","ALB","ARE","ARG","ARM","ATG","AUS","AUT","AZE","BDI","BEL","BEN","BFA","BGD","BGR","BHR","BHS","BIH","BLR","BLZ","BOL","BRA","BRB","BRN","BTN","BWA","CAF","CAN","CHE","CHL","CHN","CIV","CMR","COG","COL","COM","CPV","CRI","CUB","CYP","CZE","DEU","DJI","DNK","DOM","DZA","ECU","EGY","ERI","ESP","EST","ETH","FIN","FJI","FRA","FSM","GAB","GBR","GEO","GHA","GIN","GMB","GNB","GNQ","GRC","GRD","GTM","GUM","GUY","HKG","HND","HRV","HTI","HUN","IDN","IND","IRL","IRN","IRQ","ISL","ITA","JAM","JOR","JPN","KAZ","KEN","KGZ","KHM","KIR","KOR","KWT","LAO","LBN","LBR","LBY","LCA","LKA","LSO","LTU","LUX","LVA","MAC","MAR","MDA","MDG","MDV","MEX","MKD","MLI","MLT","MMR","MNE","MNG","MOZ","MRT","MUS","MWI","MYS","NAM","NCL","NER","NGA","NIC","NLD","NOR","NPL","NZL","OMN","PAK","PAN","PER","PHL","PNG","POL","PRI","PRT","PRY","PYF","QAT","ROU","RUS","RWA","SAU","SDN","SEN","SGP","SLB","SLE","SLV","SOM","SSD","STP","SUR","SVK","SVN","SWE","SWZ","SYR","TCD","TGO","THA","TJK","TKM","TLS","TON","TTO","TUN","TUR","TZA","UGA","UKR","URY","USA","UZB","VCT","VEN","VIR","VNM","VUT","WSM","YEM","ZAF","COD","ZMB","ZWE")
@@ -12,6 +12,17 @@ DataCsv
 #A new dataframe is created with the vector data
 Newdata <- data.frame(Code=Country_Code, Expectancy_1960=Life_Expectancy_At_Birth_1960, Expectancy_2013=Life_Expectancy_At_Birth_2013)
 Newdata
+
+#dated 1960
+#name a value for the data obtained from the date <- name of the file taken $ the condition of the data to be taken
+data_1960 <- DataCsv$Year == 1960
+data_1960 <- DataCsv[data_1960,]
+data_1960
+
+#dated 2013
+data_2013 <- DataCsv$Year == 2013
+data_2013 <- DataCsv[data_2013,]
+data_2013
 
 #The new dataframe is merged with the existing one for each year
 merge_1960 <- merge(data_1960, Newdata, by.x= "Country.Code", by.y="Code")
@@ -28,18 +39,8 @@ merge_2013$Expectancy_1960 <- NULL
 install.packages("ggplot2")
 library(ggplot2)
 
+
 qplot(data=merge_1960, x=Fertility.Rate, y=Expectancy_1960, color=Region, size=I(1))
 
 qplot(data=merge_2013, x=Fertility.Rate, y=Expectancy_2013, color=Region, size=I(1))
-
-#dated 1960
-#name a value for the data obtained from the date <- name of the file taken $ the condition of the data to be taken
-data_1960 <- DataCvs$Year == 1960
-data_1960 <- DataCvs[data_1960,]
-data_1960
-
-#dated 1960
-data_2013 <- DataCvs$Year == 2013
-data_2013 <- DataCvs[data_2013,]
-data_2013
 
