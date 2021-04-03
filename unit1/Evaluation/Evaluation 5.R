@@ -28,7 +28,9 @@ merge_2013$Expectancy_1960 <- NULL
 install.packages("ggplot2")
 library(ggplot2)
 
-qplot(data=DataCsv, x=Fertility.Rate, y=Country.Name, color=Region, size=I(0.5))
+qplot(data=merge_1960, x=Fertility.Rate, y=Expectancy_1960, color=Region, size=I(1))
+
+qplot(data=merge_2013, x=Fertility.Rate, y=Expectancy_2013, color=Region, size=I(1))
 
 #dated 1960
 #name a value for the data obtained from the date <- name of the file taken $ the condition of the data to be taken
