@@ -21,7 +21,7 @@ DataCsv
 Newdata <- data.frame(Code=Country_Code,Expectancy_1960=Life_Expectancy_At_Birth_1960, Expectancy_2013=Life_Expectancy_At_Birth_2013)
 Newdata
 ```
-#### name a value for the data obtained from the date <- name of the #### file taken $ the condition of the data to be taken.
+#### name a value for the data obtained from the date <- name of the file taken $ the condition of the data to be taken.
 
 #### dated 1960
 ```scala
@@ -69,14 +69,12 @@ qplot(data=merge_1960, x=Fertility.Rate, y=Expectancy_1960, color=Region, size=I
 qplot(data=merge_2013, x=Fertility.Rate, y=Expectancy_2013, color=Region, size=I(1))
 ```
 #### use the dataset.csv file to our working file.
-
 ~~~
 DataCsv <- read.csv(file.choose())
 DataCsv
 ~~~
 
 #### A new dataframe is created with the vector data
-
 ~~~
 Newdata <- data.frame(Code=Country_Code, Expectancy_1960=Life_Expectancy_At_Birth_1960, Expectancy_2013=Life_Expectancy_At_Birth_2013)
 Newdata
