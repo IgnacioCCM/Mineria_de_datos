@@ -138,11 +138,11 @@ qplot(data=merge_2013, x=Fertility.Rate, y=Expectancy_2013, color=Region, size=I
 
 ## Comparison between the data results of the graph in the period 1960 and 2013.
 
-## From the two periods it can be deduced that Europe has a high life expectancy rate in 1960 and a low fertility range compared to Africa which has a low life expectancy rate and a very high fertility range.
+###### From the two periods it can be deduced that Europe has a high life expectancy rate in 1960 and a low fertility range compared to Africa which has a low life expectancy rate and a very high fertility range.
 
 ![1960](https://user-images.githubusercontent.com/60414250/114616636-f3bae180-9c5b-11eb-85c0-e3f589ca1673.png)
 
-##  In 2013 Europe in some regions the low life expectancy rate was low and in others it rose considerably, in the case of Africa the low life expectancy rate rose a little but its fertility range was reduced.
+#######  In 2013 Europe in some regions the low life expectancy rate was low and in others it rose considerably, in the case of Africa the low life expectancy rate rose a little but its fertility range was reduced.
 
 ![2013](https://user-images.githubusercontent.com/60414250/114616610-ed2c6a00-9c5b-11eb-883b-add5edb72bc4.png)
 
