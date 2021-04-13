@@ -136,6 +136,10 @@ qplot(data=merge_2013, x=Fertility.Rate, y=Expectancy_2013, color=Region, size=I
 
 #### Datos generados por la grafica.
 
+![1960](https://user-images.githubusercontent.com/60414250/114616636-f3bae180-9c5b-11eb-85c0-e3f589ca1673.png)
+
+![2013](https://user-images.githubusercontent.com/60414250/114616610-ed2c6a00-9c5b-11eb-883b-add5edb72bc4.png)
+
 
 #### Conclusion .
 
