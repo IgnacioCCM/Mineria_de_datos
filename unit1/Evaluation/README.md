@@ -54,16 +54,23 @@ head(merge_2013)
 ~~~
 
 #Flush the repeating column into the new dataframe named merge
+~~~
 merge_2013$Expectancy_1960 <- NULL
 merge_1960$Expectancy_2013 <- NULL
+~~~
 
 #display dataset data by dates of the year
+~~~
 install.packages("ggplot2")
 library(ggplot2)
+~~~
 
 #plot 1960
+~~~
 qplot(data=merge_1960, x=Fertility.Rate, y=Expectancy_1960, color=Region, size=I(1))
+~~~
 
 #plot 2013
+~~~
 qplot(data=merge_2013, x=Fertility.Rate, y=Expectancy_2013, color=Region, size=I(1))
-
+~~~
