@@ -130,7 +130,7 @@ library(ggplot2)
 qplot(data=merge_1960, x=Fertility.Rate, y=Expectancy_1960, color=Region, size=I(1))
 ```
 #plot 2013
-```scala
+```r
 qplot(data=merge_2013, x=Fertility.Rate, y=Expectancy_2013, color=Region, size=I(1))
 ```
 
