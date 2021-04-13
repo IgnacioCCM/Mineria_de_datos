@@ -69,64 +69,64 @@ qplot(data=merge_1960, x=Fertility.Rate, y=Expectancy_1960, color=Region, size=I
 qplot(data=merge_2013, x=Fertility.Rate, y=Expectancy_2013, color=Region, size=I(1))
 ```
 #### use the dataset.csv file to our working file.
-~~~
+```r
 DataCsv <- read.csv(file.choose())
 DataCsv
-~~~
+```
 
 #### A new dataframe is created with the vector data
-~~~
+```r
 Newdata <- data.frame(Code=Country_Code, Expectancy_1960=Life_Expectancy_At_Birth_1960, Expectancy_2013=Life_Expectancy_At_Birth_2013)
 Newdata
-~~~
+```
 
 #### dated 1960
 #### name a value for the data obtained from the date <- name of the file taken $ the condition of the data to be taken
-~~~
+```r
 data_1960 <- DataCsv$Year == 1960
 data_1960 <- DataCsv[data_1960,]
 data_1960
-~~~
+```
 
 #### dated 2013
-~~~
+```r
 data_2013 <- DataCsv$Year == 2013
 data_2013 <- DataCsv[data_2013,]
 data_2013
-~~~
+```
 
 #### The new dataframe is merged with the existing one for each year . 1960
-~~~
+```r
 merge_1960 <- merge(data_1960, Newdata, by.x= "Country.Code", by.y="Code")
 merge_1960
-~~~
+```
 
 #### The new dataframe is merged with the existing one for each year . 2013
-~~~
+```r
 merge_2013 <- merge(data_2013, Newdata, by.x= "Country.Code", by.y="Code")
 merge_2013
-~~~
+```
 
 #### Show data header for 2013 and 1960
-~~~
+```r
 head(merge_1960)
 head(merge_2013)
-~~~
+```
 
 #### Flush the repeating column into the new dataframe named merge
-~~~
+```r
 merge_2013$Expectancy_1960 <- NULL
 merge_1960$Expectancy_2013 <- NULL
-~~~
+```
 
 #### display dataset data by dates of the year
-```scala
+```r
 install.packages("ggplot2")
 library(ggplot2)
 ```
 
 #### plot 1960
-```scala
+```r
 qplot(data=merge_1960, x=Fertility.Rate, y=Expectancy_1960, color=Region, size=I(1))
 ```
 #plot 2013
