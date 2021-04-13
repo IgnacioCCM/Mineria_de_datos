@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 
 #### Evaluation Practice
-=======
+
 ##Evaluation Practice
->>>>>>> 5ea778a928c59a5b65fb6eb987079968d5f89011
 
 #### Execute below code to generate three new vectors.
 ```scala
@@ -145,4 +143,3 @@ qplot(data=merge_1960, x=Fertility.Rate, y=Expectancy_1960, color=Region, size=I
 ~~~
 qplot(data=merge_2013, x=Fertility.Rate, y=Expectancy_2013, color=Region, size=I(1))
 ~~~
->>>>>>> 5ea778a928c59a5b65fb6eb987079968d5f89011
