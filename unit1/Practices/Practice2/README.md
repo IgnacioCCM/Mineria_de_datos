@@ -5,13 +5,13 @@
 -----------
 #### 1- Una funcion de suma
 
-~~~
+```r
 suma<-function(x,y){
     x+y
    }
 
 suma(3,4)
-~~~
+```
 
  #### 2- Una funcion de resta
 
