@@ -105,7 +105,7 @@ edit(Fun)
 
 ```r
 ls()
-```r
+```
 
 #### 14- rm can be used to remove objects
 
@@ -125,44 +125,44 @@ floor(5.87)
 
 #### 16- This function returns a string in uppercase in this case we get as a result
 
-~~~
+```r
 toupper(cadena)
 
 #### Example:
 
 toupper(“hola”)
-~~~
+```
 
 #### 17- To obtain the median of the vector
 
-~~~
+```r
 median()
 
 vector = c(5,6,7,8,9)
 median(vector)
-~~~
+```
 
 #### 18- shows the minimum value and maximum value in this case of the vector
 
-~~~
+```r
 range()
 range(vector)
-~~~
+```
 
 #### 19- The unique values ​​of a vector are obtained, eliminating the records that are duplicated
 
-~~~
+```r
 unique() 
 
 #### Example: 
 
 k = c(2,2,2,4,4,4)
 unique(k)
-~~~
+```
 
 #### 20- To calculate the arithmetic mean or average of the vector
 
-~~~
+```r
 mean()
 mean(vector)
 
@@ -175,7 +175,7 @@ head (z)
 
 x <- matrix (1: 9, ncol = 3, nrow = 3)
 x 
-~~~
+```
 -----------
 
 
