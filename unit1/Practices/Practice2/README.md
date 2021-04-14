@@ -166,7 +166,7 @@ unique(k)
 mean()
 mean(vector)
 
-#### Shows the first three data of a field or vector.
+Shows the first three data of a field or vector.
 
 z <- 1:20
 head (z)
