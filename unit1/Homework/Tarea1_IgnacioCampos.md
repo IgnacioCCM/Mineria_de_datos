@@ -21,7 +21,7 @@ It also serves to filter out all the noise and repetitive in the data, understan
 
 ## Bibliografia
 [1] Sas. (2017). Minería de datos. marzo 18, 2021, de Sas Sitio web: https://www.sas.com/es_mx/insights/analytics/data-mining.html#dmimportanca 
-[2] Iberdrola. (2020). Descubre cómo el 'data mining' predecirá nuestro comportamiento. marzo 18, 2021, de Iberdrola Sitio web: https://www.iberdrola.com/innovacion/data-mining-definicion-ejemplos-y-aplicaciones 
+ [2] Iberdrola. (2020). Descubre cómo el 'data mining' predecirá nuestro comportamiento. marzo 18, 2021, de Iberdrola Sitio web: https://www.iberdrola.com/innovacion/data-mining-definicion-ejemplos-y-aplicaciones 
 [3] Microsoft. (2019). Conceptos de minería de datos. marzo 18, 2021, de Microsoft Sitio web: https://docs.microsoft.com/es-es/analysis-services/data-mining/data-mining-concepts?view=asallproducts-allversions
 
 
