@@ -11,7 +11,7 @@ It also serves to filter out all the noise and repetitive in the data, understan
 - Sequence search: analysis of the items that customers have entered in the shopping cart and prediction of possible events.
 - Grouping: distribution of customers or events into groups of related items, and analysis and prediction of affinities.
 
-## 3. Applications of data mining?
+## 3. Applications of data mining?
 - 'Marketing'. Data mining is used to explore growing databases and improve market segmentation. By analyzing the relationships between parameters such as customer age, gender, tastes, etc., it is possible to guess their behavior to direct personalized loyalty or recruitment campaigns. Data mining in marketing also predicts which users can unsubscribe from a service, what they are interested in based on their searches, or what a mailing list should include to achieve a higher response rate.
 - Retail commerce. Supermarkets, for example, use joint purchasing patterns to identify product associations and decide how to position them in different aisles and shelves on the shelves. Data mining also detects which offers are the most valued by customers or increases sales in the checkout queue.
 - Banking. Banks turn to data mining to better understand market risks. It is commonly applied to credit rating (rating) and intelligent anti-fraud systems to analyze transactions, card movements, purchase patterns and customer financial data. Data mining also allows banks to learn more about our preferences or habits on the Internet to optimize the return of their marketing campaigns, study the performance of sales channels or manage compliance obligations with regulations.
