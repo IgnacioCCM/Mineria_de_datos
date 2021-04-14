@@ -19,4 +19,9 @@ It also serves to filter out all the noise and repetitive in the data, understan
 - Television and radio. There are networks that apply data mining in real time to their audience records on online television (IPTV) and radio. These systems collect and analyze anonymous information on channel views, broadcasts and programming on the fly. Thanks to data mining, it is possible to issue personalized recommendations to listeners and viewers, learn about their interests and their activity directly, and better understand their behavior. The chains also obtain very valuable knowledge for their advertisers, who take advantage of this data to reach their potential customers more precisely.
 
 
+## Bibliografia
+[1] Sas. (2017). Minería de datos. marzo 18, 2021, de Sas Sitio web: https://www.sas.com/es_mx/insights/analytics/data-mining.html#dmimportanca 
+[2] Iberdrola. (2020). Descubre cómo el 'data mining' predecirá nuestro comportamiento. marzo 18, 2021, de Iberdrola Sitio web: https://www.iberdrola.com/innovacion/data-mining-definicion-ejemplos-y-aplicaciones 
+[3] Microsoft. (2019). Conceptos de minería de datos. marzo 18, 2021, de Microsoft Sitio web: https://docs.microsoft.com/es-es/analysis-services/data-mining/data-mining-concepts?view=asallproducts-allversions
+
 
