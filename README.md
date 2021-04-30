@@ -35,7 +35,5 @@ ______________
 ###  15211277 - Campos Morales Carlos Ignacio</p>
 ###  15210743 - Vasquez Macias Cristo Josue</p>
 
->>>>>>> 6221b7bae79bdacb5803b48cb4a8f603e5ff3bec
-
 * ## Research
 [Research_1](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit1/unit1/Research)
