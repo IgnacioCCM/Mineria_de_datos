@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO INSTITUTO TECNOLÓGICO DE TIJUANA </p> 
 <p align="center" > SUBDIRECCIÓN ACADÉMICA DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN </p> 
 <p align="center" > PERIODO: Febrero-Junio  2021</p>
@@ -19,3 +20,12 @@
 
 * ## Research
 [Research_1](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit1/unit1/Research)
+=======
+###  <p align="center">  Carrera: Ing. En Sistemas Computacionales. 
+### <p align="center"> Materia: 	Datos Masivos (BDD-1704 SC9A	).</p>
+
+### <p align="center">  Maestro: Jose Christian Romero Hernandez	</p>
+### <p align="center">  No. de control y nombre del alumno: 15211277 - Campos Morales Carlos Ignacio</p>
+### <p align="center">  No. de control y nombre del alumno: 15210743 - Vasquez Macias Cristo Josue</p>
+
+>>>>>>> 6221b7bae79bdacb5803b48cb4a8f603e5ff3bec
