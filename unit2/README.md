@@ -1,8 +1,9 @@
+# BigData Course
 
+* ## Practices
+   * [Practice 1](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit2/unit2/Practices/Practice1)
+   
+* ## Investigation
+   * [Investigacion1_]()
 
-### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO INSTITUTO TECNOLÓGICO DE TIJUANA SUBDIRECCIÓN ACADÉMICA DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN PERIODO: Febrero-Junio  2021</p>
-
-###  <p align="center">  Carrera: Ing. En Sistemas Computacionales. 
-### <p align="center"> Materia: 	Datos Masivos (BDD-1704 SC9A	).</p>
-
-
+   * [Investigacion2_]()
