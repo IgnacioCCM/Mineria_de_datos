@@ -17,6 +17,6 @@ Peltzer (2001: 110) considera que la primera infografía periodística fue publi
 <p>Sevilla estableció una analogía (que no se debe interpretar al pie de la letra) entre la construcción gramatical y la estructura de una gráfica. De esta forma, llegó a equivalencias como las que se ven en la tabla.</p>
 
 
-<p>![alt text](https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Tabla-1.-Analogia-graficas-linguistica--700x348.png)</P>
+![alt text](https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Tabla-1.-Analogia-graficas-linguistica--700x348.png)
 
 
