@@ -19,4 +19,6 @@ Peltzer (2001: 110) considera que la primera infografía periodística fue publi
 
 ![alt text](https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Tabla-1.-Analogia-graficas-linguistica--700x348.png)
 
-
+<p align="center">
+  <img src="https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Tabla-1.-Analogia-graficas-linguistica--700x348.png" />
+</p>
