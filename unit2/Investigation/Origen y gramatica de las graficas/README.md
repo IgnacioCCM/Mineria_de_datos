@@ -1,4 +1,4 @@
-
+#Origen y gramatica de las graficas
 
 ### 1- ¿ Cuál es el Origen de las gráficas?
 <p>En el Renacimiento se produce un cambio en la manera de pensar y de entender el mundo propiciado por los avances científicos y tecnológicos que se producen en esta época. El Humanismo pone su foco de atención en el ser humano y en lo que es capaz de lograr a través de descubrimientos que le acercan más a la comprensión del mundo en el que vive.</p>
