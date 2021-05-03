@@ -16,9 +16,31 @@ Peltzer (2001: 110) considera que la primera infografía periodística fue publi
 
 <p>Sevilla estableció una analogía (que no se debe interpretar al pie de la letra) entre la construcción gramatical y la estructura de una gráfica. De esta forma, llegó a equivalencias como las que se ven en la tabla.</p>
 
-
-![alt text](https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Tabla-1.-Analogia-graficas-linguistica--700x348.png)
-
 <p align="center">
   <img src="https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Tabla-1.-Analogia-graficas-linguistica--700x348.png" />
 </p>
+
+<p>Del análisis de muchas gráficas extrajo algunas conclusiones para recomendar algunos tips con los que construir una gráfica que no diera lugar a confusiones y fuera fiel a su mensaje original.</p>
+
+<p align="center">
+  <img src="https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Tabla-2.-Recomedaciones-elaboracion-graficas-700x384.png" />
+</p>
+
+Cuidar la semántica
+
+<p>Para que haya concordancia entre la gráfica y el tipo de datos, es decir, para cuidar la semántica, he elegido una gráfica de líneas, que muestra claramente la evolución temporal de las tres series de datos y su tendencia alcista. Podría haber optado por una de barras, pero, como se ve en la representación inferior, la tendencia no es tan evidente y puede producirse algún efecto óptico no deseado.</p>
+
+<p align="center">
+  <img src="https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Grafica-4.-Evolucion-salario-medio-mediano-modal-2007-2017-grafica-barras-700x609.png" />
+</p>
+
+<p>La gráfica incluye ejes explícitos, bien delimitados (X para datos temporales en años, que son homogéneos, de año en año, e Y para los rangos salariales). Incluso se incluye una leyenda para indicar a qué se refieren los ejes (además, de las líneas), por si hay algún lector que no los interpreta correctamente porque procede de un contexto distinto. Es mejor hacerlo así que de esta otra manera:</p>
+
+<p align="center">
+  <img src="https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Grafica-1.-Evolucion-salario-medio-mediano-modal-2007-17-Espana-sin-identificar-ejes-700x599.png" />
+</p>
+
+Evitar la demagogia
+
+<p>En la gráfica que he mostrado estos rangos se muestran en intervalos de 1.000 euros, pero se pueden modificar para, como apunta Joaquín Sevilla, “hacer demagogia con gráfica impecables”. Por ejemplo, como en la siguiente gráfica, en la que se modifica la escala, obteniendo una gráfica donde la evolución parece plana</p>
+
