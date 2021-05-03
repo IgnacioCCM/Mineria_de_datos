@@ -45,6 +45,6 @@ Evitar la demagogia
 <p>En la gráfica que he mostrado estos rangos se muestran en intervalos de 1.000 euros, pero se pueden modificar para, como apunta Joaquín Sevilla, “hacer demagogia con gráfica impecables”. Por ejemplo, como en la siguiente gráfica, en la que se modifica la escala, obteniendo una gráfica donde la evolución parece plana</p>
 
 ###  Bibliografía
-####  [1] Gamonal R. (2013). Infografía: etapas históricas y desarrollo de la gráfica informativa. mayo 01, 2021, de Universidad Complutense de Madrid Sitio web: https://eprints.ucm.es/id/eprint/50812/2/44331-68549-3-PB.pdf 
-[2] Moróder, J. S. (2005, mayo). Gramática de las gráficas (N.o 84-9769-106-7). Universidad Pública de Navarra. https://dialnet.unirioja.es/servlet/libro?codigo=260830
+<p>[1] Gamonal R. (2013). Infografía: etapas históricas y desarrollo de la gráfica informativa. mayo 01, 2021, de Universidad Complutense de Madrid Sitio web: https://eprints.ucm.es/id/eprint/50812/2/44331-68549-3-PB.pdf</p>
+<p>[2] Moróder, J. S. (2005, mayo). Gramática de las gráficas (N.o 84-9769-106-7). Universidad Pública de Navarra. https://dialnet.unirioja.es/servlet/libro?codigo=260830</p>
 
