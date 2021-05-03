@@ -1,6 +1,6 @@
 # Origen y gramatica de las graficas
 
-### 1- ¿ Cuál es el Origen de las gráficas?
+## 1- ¿ Cuál es el Origen de las gráficas?
 <p>En el Renacimiento se produce un cambio en la manera de pensar y de entender el mundo propiciado por los avances científicos y tecnológicos que se producen en esta época. El Humanismo pone su foco de atención en el ser humano y en lo que es capaz de lograr a través de descubrimientos que le acercan más a la comprensión del mundo en el que vive.</p>
 <p>Lo que antes parecía producto de la magia encuentra en esta época explicación.
 Las Matemáticas y la Geometría son disciplinas con un enorme desarrollo en esta época con dos elementos clave que ayudan a entender el mundo: el eje cartesiano y la perspectiva. En ambos casos se sigue el principio básico de que para resolver un problema complejo, lo mejor es dividirlo en partes más pequeñas. El ser humano encuentra en la Naturaleza formas y proporciones geométricas que imita y pone a su servicio para crear cosas nuevas. Se fija en cómo vuelan los pájaros, cómo crecen los pétalos de las flores, cómo es la forma de la concha de un caracol, etc...
@@ -12,7 +12,7 @@ Peltzer (2001: 110) considera que la primera infografía periodística fue publi
 <p>Un ejemplo de esta renovación en la manera de contar las cosas visualmente es la infografía realizada en 1869 por el ingeniero francés Charles Joseph Mainard (Rend- gen, 2012: 11). Mediante una nueva forma gráfica, el mapa de flujo, que le permite establecer relaciones de movimiento y evolución, explica de forma muy didáctica el fracaso de la campaña militar de Napoleón Bonaparte durante la invasión de Rusia en 1812.</p>
 <p>En el siglo XX las esquematizaciones van mejorando su aspecto visual a través de la ayuda de profesionales expertos en el terreno del Diseño Gráfico. Este es el caso de Otto Neurath, sociólogo y filósofo austriaco, que con la ayuda del ilustrador y diseñador alemán Gerd Arntz, creó ISOTYPE (International System of Typogra- phic Picture Education). Consciente del poder de la imagen como lenguaje universal, Neurath idea un sistema estandarizado de representación basado en pictogramas o iconos que no requerían de ningún texto para ser comprendidos (Vossoughian, 2008: 91). El progreso del siglo XX se nota especialmente en la mejora de las comunicaciones y los transportes. Las infraestructuras aumentan y los viajeros necesitan información clara y concisa para saber dónde se encuentran y cómo llegar a su lugar de destino. Nacen así los primeros mapas esquemáticos de las redes de transporte que no se basaban en criterios cartográficos y geográficos. En 1933 un ingeniero electrónico llamado Henry Beck crea un mapa del metro de Londres sin tener en cuenta ninguna norma cartográfica. Dibujó el mapa como si fuera un circuito eléctrico usando líneas identificadas cromáticamente y con formas ortogonales (verticales, horizontales y oblicuas en ángulo de 45 grados).</p>
 
-### 2- ¿ Qué es la gramática de las gráficas ?   
+## 2- ¿ Qué es la gramática de las gráficas ?   
 
 <p>Sevilla estableció una analogía (que no se debe interpretar al pie de la letra) entre la construcción gramatical y la estructura de una gráfica. De esta forma, llegó a equivalencias como las que se ven en la tabla.</p>
 
