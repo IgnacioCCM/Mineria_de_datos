@@ -19,4 +19,9 @@ La segunda, como una distribución límite. Por ejemplo, el número de goles que
   <img src="imagen.png" />
 </p>
 
+<p>Puede considerarse una mezcla de dos distribuciones de Dirac. A la inversa, la distribución de Dirac es un caso degenerado de la de Bernoulli que ocurre cuando 
+p = 0 o p = 1.
+La distribución de Bernoulli es la base de muchos modelos de clasificación. De hecho, una de las tareas más habituales de la ciencia de datos es encontrar el valor pi asociado a una determinada acción (de resultado binario) de un sujeto i.</p>
+
+
    
