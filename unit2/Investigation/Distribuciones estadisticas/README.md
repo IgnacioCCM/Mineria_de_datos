@@ -99,6 +99,19 @@ La distribución normal tiene una importancia fundamental en la teoría de la pr
 <p>La distribución t con un grado de libertad, i.e., df = 1 se la conoce también como distribución de Cauchy. Tiene una peculiaridad: no tiene media. Eso se manifiesta, por ejemplo, en que un promedio de muestras de la distribución de Cauchy no converge como tienden a hacer los promedios en que aplica la ley de los grandes números sino que oscila. Eso se debe principalmente a los outliers: la cola de la distribución de Cauchy es tan gruesa que valores de un tamaño tan grande que hacen bascular todo el promedio ocurren frecuentemente.</p>
 <p>Así, el uso fundamental de la distribución t es el de reemplazar a la normal cuando se observan outliers en los datos. Para valores altos de su parámetro es prácticamente indistinguible de la dócil distribución normal, mientras que en el otro extremo se convierte en la procelosa distribución de Cauchy; así, una distribución t con valores intermedios del parámetro, por tanto, podrían modelar convenientemente cierto tipo de datos.</p>
 
+### Las distribuciones gamma y lognormal
+<p>Se trata de dos distribuciones con soporte en los valores x > 0 y que tienen una forma similar:</p>
+
+<p align="center">
+  <img src="https://datanalytics.com/libro_estadistica/_main_files/figure-html/unnamed-chunk-96-1.png" />
+</p>
+
+<p>Ambas son asimétricas y tienen una cola que desciende lentamente hacia la derecha. Se usan para modelar tiempos (hasta que ocurre algún evento) o magnitudes tales como ingresos, que se extienden a través de varios órdenes de magnitud. La distribución lognormal, que es la exponencial de una distribución normal, ejerce el papel de atractor de distribuciones cuando, en lugar de sumarse, se multiplican.</p>
+<p>Por eso se usa en ocasiones la distribución lognormal para modelar los resultados bursátiles. Aunque hay que tener en cuenta la discusión anterior sobre la no normalidad de los movimientos diarios del precio de los activos financieros, que arrojan una sombra de sospecha sobre el uso de la distribución lognormal en estos contextos. No obstante, e independientemente de la pertinencia del uso de la distribución lognormal en estos contextos, el ejemplo anterior ilustra cómo tal vez en otros en los que el efecto de las variables no es aditivo sino multiplicativo, la distribución lognormal puede resultar una herramienta de modelado útil.</p>
+<p>La distribución gamma se usa frecuentemente en el llamado análisis de la supervivencia: el estudio estadístico del tiempo que discurre hasta que ocurre un fenómeno aleatorio: que falle una máquina, que fallezca un paciente, cierre su cuenta un cliente, etc.</p>
+
+### Bibliografía
+<p>[1] Datanalytics. (2017). Distribuciones de probabilidad. mayo 01, 2021, de Datanalytics Sitio web: https://datanalytics.com/libro_estadistica/distribuciones-de-probabilidad.html#distribuciones-de-probabilidad-continuas</p>
 
 
 
