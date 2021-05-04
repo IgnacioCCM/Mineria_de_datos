@@ -48,8 +48,20 @@ La distribución de Bernoulli es la base de muchos modelos de clasificación. De
 <p>La segunda consecuencia de la relación Poisson es que nos permite caracterizar los casos en que es aplicable la distribución de Poisson. Se necesitan, por ejemplo, sucesos independientes. Así que uno podría cuestionarse hasta qué punto el número fallecidos por accidentes de circulación puede modelarse con una distribución de Poisson habida cuenta de la posibilidad de accidentes con más de un fallecido (respuesta: es algo a tener en cuenta, pero no acaba siendo una objeción relevante: la aproximación es lo suficientemente buena). El mismo argumento podría aplicarse para cuestionar si, por ejemplo, la distribución de Poisson podría aplicarse o no para modelar compras realizadas por clientes a lo largo de un determinado periodo.</p>
 <p>La tercera consecuencia es que podemos intuir la forma de la distribución de Poisson: acampanada y con una cola relativamente más larga hacia la derecha. Además, en principio, una variable aleatoria de Poisson podría tomar cualquier valor entero mayor que cero: a diferencia de la distribución binomial y a pesar de la estrecha relación entre ambas, no tiene límite superior.</p>
 
+<p align="center">
+  <img src="https://datanalytics.com/libro_estadistica/_main_files/figure-html/unnamed-chunk-61-1.png" />
+</p>
 
+## Distribuciones de probabilidad continuas
+Las distribuciones de probabilidad continuas son las correspondientes a variables aleatorias relacionadas con eventos como los siguientes:
+* Que mañana la bolsa baje más del 1%.
+* Que alguien sano tenga una concentración de urea en la sangre superior a x.
+* Que alguien sin estudios gane más de 3000 euros al mes; la probabilidad correspondiente en este caso sería una probabilidad condicional (condicionada a que el sujeto no tenga estudios)
+* Que alguien mida más de 1.90 y pese menos de 80 kilos; en este caso, a diferencia de los anteriores, la variable aleatoria es bidimensional: tiene en cuenta la altura y el peso.
 
+### De histogramas a funciones de densidad
+
+<p>Los histogramas son representaciones gráficas de datos que seccionan el rango de variación de la variable aleatoria en segmentos (bins) y calculan la proporción de las observaciones obtenidas que caen en cada uno de ellos; estas proporciones definen la altura de los rectángulos que se representan gráficamente. Para todo fenómeno aleatorio discreto puede construirse una función de densidad que le es específica. Sin embargo, sucede que muchos fenómenos aleatorios comparten función de densidad. O, más bien, las funciones de densidad asociadas a muchos fenómenos aleatorios en principio distintos, son (aproximadamente) comunes.</p>
 
 
 
