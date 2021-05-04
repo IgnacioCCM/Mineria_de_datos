@@ -63,6 +63,35 @@ Las distribuciones de probabilidad continuas son las correspondientes a variable
 
 <p>Los histogramas son representaciones gráficas de datos que seccionan el rango de variación de la variable aleatoria en segmentos (bins) y calculan la proporción de las observaciones obtenidas que caen en cada uno de ellos; estas proporciones definen la altura de los rectángulos que se representan gráficamente. Para todo fenómeno aleatorio discreto puede construirse una función de densidad que le es específica. Sin embargo, sucede que muchos fenómenos aleatorios comparten función de densidad. O, más bien, las funciones de densidad asociadas a muchos fenómenos aleatorios en principio distintos, son (aproximadamente) comunes.</p>
 
+<p align="center">
+  <img src="https://datanalytics.com/libro_estadistica/_main_files/figure-html/unnamed-chunk-74-1.png" />
+</p>
+
+### La distribución uniforme
+<p>La distribución uniforme es, posiblemente, la más sencilla entre las continuas: su densidad es 0 salvo en un determinado rango [a, b] donde es constante (y, como consecuencia, toma el valor 1/(b -a). Es decir, solo puede tomar valores en ese rango y, dentro de él, todos son equiprobables.</p>
+
+<p align="center">
+  <img src="https://datanalytics.com/libro_estadistica/_main_files/figure-html/unnamed-chunk-88-1.png" />
+</p>
+
+### La distribución beta
+</p>La distribución beta es una generalización del uniforme y también toma valores entre 0 y 1. Valores entre 0 y 1 pueden significar muchas cosas pero muy frecuentemente, representan proporciones o probabilidades. De ahí que la distribución beta se utiliza a menudo para modelar la incertidumbre sobre una probabilidad. Con parámetros (1,1) es uniforme. Conforme aumenta el primer parámetro, tiende a concentrar probabilidad en la parte derecha, alrededor del 1. Eso indicaría que crece nuestra certeza de que el valor de la proporción desconocida es 1.</p>
+
+<p align="center">
+  <img src="https://datanalytics.com/libro_estadistica/_main_files/figure-html/unnamed-chunk-89-1.png" />
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
