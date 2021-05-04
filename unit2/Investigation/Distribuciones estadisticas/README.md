@@ -81,6 +81,26 @@ Las distribuciones de probabilidad continuas son las correspondientes a variable
   <img src="https://datanalytics.com/libro_estadistica/_main_files/figure-html/unnamed-chunk-89-1.png" />
 </p>
 
+### La distribución normal
+<p>Se trata de la famosa campana de Gauss, que, por defecto, está centrada en 0 y tiene desviación estándar 1. Sin embargo, admite dos parámetros, μ, la media y σ, la desviación estándar) que o la desplazan o la contraen o expanden.
+La distribución normal tiene una importancia fundamental en la teoría de la probabilidad porque es un atractor de distribuciones. No es solo que la suma de variables aleatorias independientes con una distribución normal tenga también distribución normal sino que, además, la suma de variables aleatorias independientes de otras distribuciones tiende a tener también distribución normal.</p>
+
+<p align="center">
+  <img src="https://datanalytics.com/libro_estadistica/_main_files/figure-html/unnamed-chunk-91-1.png" />
+</p>
+
+### La distribución t
+<p>La distribución t es similar a la normal (simétrica, unimodal, etc.) pero tiene colas más gruesas. De hecho, no es una distribución sino una familia de distribuciones parametrizadas por un parámetro, el número de grados de libertad (o df), según el cual las colas son más o menos gruesas:</p>
+
+<p align="center">
+  <img src="https://datanalytics.com/libro_estadistica/_main_files/figure-html/unnamed-chunk-95-1.png" />
+</p>
+
+<p>La distribución t con un grado de libertad, i.e., df = 1 se la conoce también como distribución de Cauchy. Tiene una peculiaridad: no tiene media. Eso se manifiesta, por ejemplo, en que un promedio de muestras de la distribución de Cauchy no converge como tienden a hacer los promedios en que aplica la ley de los grandes números sino que oscila. Eso se debe principalmente a los outliers: la cola de la distribución de Cauchy es tan gruesa que valores de un tamaño tan grande que hacen bascular todo el promedio ocurren frecuentemente.</p>
+<p>Así, el uso fundamental de la distribución t es el de reemplazar a la normal cuando se observan outliers en los datos. Para valores altos de su parámetro es prácticamente indistinguible de la dócil distribución normal, mientras que en el otro extremo se convierte en la procelosa distribución de Cauchy; así, una distribución t con valores intermedios del parámetro, por tanto, podrían modelar convenientemente cierto tipo de datos.</p>
+
+
+
 
 
 
