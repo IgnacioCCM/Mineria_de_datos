@@ -16,11 +16,7 @@ La segunda, como una distribución límite. Por ejemplo, el número de goles que
 <p>La distribución de Bernoulli es muy simple: es la de una moneda con probabilidad P(H) = p de cara. Una variable aleatoria de Bernoulli toma valores 0 o 1 (que frecuentemente se usan para codificar otros tales como cara o cruz, éxito o fracaso, etc.). Si X ∼Bernoulli(p), entonces</p>
 
 <p align="center">
-  <img src="https://www.sergiobarbeira.com/wp-content/uploads/2020/04/Tabla-2.-Recomedaciones-elaboracion-graficas-700x384.png" />
+  <img src="imagen.png" />
 </p>
 
    
-* ## Investigation
-   * [Investigacion1_]()
-
-   * [Investigacion2_]()
