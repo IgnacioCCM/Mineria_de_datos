@@ -111,7 +111,7 @@ La distribución normal tiene una importancia fundamental en la teoría de la pr
 <p>La distribución gamma se usa frecuentemente en el llamado análisis de la supervivencia: el estudio estadístico del tiempo que discurre hasta que ocurre un fenómeno aleatorio: que falle una máquina, que fallezca un paciente, cierre su cuenta un cliente, etc.</p>
 
 ### Bibliografía
-<p>[1] Datanalytics. (2017). Distribuciones de probabilidad. mayo 01, 2021, de Datanalytics Sitio web: https://datanalytics.com/libro_estadistica/distribuciones-de-probabilidad.html#distribuciones-de-probabilidad-continuas</p>
+<p>Datanalytics. (2017). Distribuciones de probabilidad. mayo 01, 2021, de Datanalytics Sitio web: https://datanalytics.com/libro_estadistica/distribuciones-de-probabilidad.html#distribuciones-de-probabilidad-continuas</p>
 
 
 
