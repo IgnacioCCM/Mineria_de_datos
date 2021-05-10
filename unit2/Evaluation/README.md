@@ -1,8 +1,30 @@
 
-
-### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO INSTITUTO TECNOLÓGICO DE TIJUANA SUBDIRECCIÓN ACADÉMICA DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN PERIODO: Febrero-Junio  2021</p>
-
 ###  <p align="center">  Carrera: Ing. En Sistemas Computacionales. 
 ### <p align="center"> Materia: 	Datos Masivos (BDD-1704 SC9A	).</p>
 
+# Evaluative Practice
+
+## We load the data from the dataframe into a variable to execute its values and give it the corresponding view
+## Project-Data.csv
+```R
+dataset <- read.csv(file.choose())
+```
+
+## We will give a structure of the data with summary for a better analysis and observation.
+```R
+summary(dataset)
+```
+
+## We will load the missing libraries for data manipulation.
+```R
+library(ggplot2)
+```
+
+```R
+
+```
+
+```R
+
+```
 
