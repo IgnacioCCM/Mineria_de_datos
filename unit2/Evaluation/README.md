@@ -2,20 +2,20 @@
 ###  <p align="center">  Carrera: Ing. En Sistemas Computacionales. 
 ### <p align="center"> Materia: 	Datos Masivos (BDD-1704 SC9A	).</p>
 
-# Evaluative Practice
+## Evaluative Practice
 
-## We load the data from the dataframe into a variable to execute its values and give it the corresponding view
-## Project-Data.csv
+#### We load the data from the dataframe into a variable to execute its values and give it the corresponding view
+#### Project-Data.csv
 ```R
 dataset <- read.csv(file.choose())
 ```
 
-## We will give a structure of the data with summary for a better analysis and observation.
+#### We will give a structure of the data with summary for a better analysis and observation.
 ```R
 summary(dataset)
 ```
 
-## We will load the missing libraries for data manipulation.
+#### We will load the missing libraries for data manipulation.
 ```R
 library(ggplot2)
 ```
