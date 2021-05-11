@@ -37,6 +37,15 @@ library(dplyr)
 ```R
 library(extrafont)
 ```
+#### Visualize fonts and be able to recognize them.
+```R
+fonts()
+```
+
+#### Make a data frame to filter the data to add only the requested genres
+```R
+GenreF<-filter(dataset, Genre %in% c("action","adventure","animation","comedy", "drama"))
+```
 
 # Visualization of our plot
 ```R
