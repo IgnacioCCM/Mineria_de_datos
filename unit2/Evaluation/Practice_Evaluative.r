@@ -24,3 +24,12 @@ font_import()
 
 # Visualize fonts and be able to recognize them.
 fonts()
+
+# Make a data frame to filter the data to add only the requested genres
+GenreF<-filter(dataset, Genre %in% c("action","adventure", 
+                                    "animation","comedy", "drama"))
+
+# With the generated graph, the filtered data will be revealed thanks to the instructions with the characteristics specified in R.
+StudioF<- filter (GenreF, Studio %in% c ("Buena Vista Studios",
+                                        "Fox", "Paramount Pictures",
+                                        "Sony", "Universal","WB"))
