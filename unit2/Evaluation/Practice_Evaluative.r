@@ -51,4 +51,11 @@ graphfull <- graph2 + geom_boxplot(alpha=0.2,  outlier.colour = NA)
 # Visualization of our plot
 graphfull
 
+# We place the title of our plot
+titlegraph <- graphfull + ggtitle("Domestic Gross % by Genre")
 
+# Visualization of our plot
+titlegraph
+
+# We put the name of the X and Y axes
+titlegraph_name  <- titlegraph + xlab("Genre") + ylab("Gross % US") 
