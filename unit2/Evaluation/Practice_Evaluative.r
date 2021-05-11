@@ -9,3 +9,12 @@ summary(dataset)
 # We will load the missing libraries for data manipulation.
 library(ggplot2)
 
+# We will use the dplyr library to generate the filters
+# install.packages("dplyr")
+library(dplyr)
+
+# To change the font we need, we install the library
+# install.packages("extrafont")
+
+# the font library is loaded
+library(extrafont)
