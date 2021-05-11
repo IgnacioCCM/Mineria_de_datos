@@ -33,3 +33,12 @@ GenreF<-filter(dataset, Genre %in% c("action","adventure",
 StudioF<- filter (GenreF, Studio %in% c ("Buena Vista Studios",
                                         "Fox", "Paramount Pictures",
                                         "Sony", "Universal","WB"))
+
+# We will load the graph of the data it will contain for the X and Y axes that will be generic for the graph.
+graph <- ggplot(StudioF, aes(x=Genre, y=Gross...US))
+
+# We add the Jitter geometry for the studies
+graph2 <- graph + geom_jitter(aes(color=Studio, size= Budget...mill.)) +
+  scale_size_continuous(range = c(2, 5),                         
+                        trans = scales::exp_trans(base = 1.2))
+
