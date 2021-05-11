@@ -18,3 +18,9 @@ library(dplyr)
 
 # the font library is loaded
 library(extrafont)
+
+# We import the font
+font_import()
+
+# Visualize fonts and be able to recognize them.
+fonts()
