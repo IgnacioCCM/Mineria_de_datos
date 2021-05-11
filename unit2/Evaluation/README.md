@@ -24,18 +24,33 @@ summary(dataset)
 library(ggplot2)
 ```
 
-# We will use the dplyr library to generate the filters
-# install.packages("dplyr")
+#### We will use the dplyr library to generate the filters
+#### install.packages("dplyr")
 ```R
 library(dplyr)
 ```
 
-# To change the font we need, we install the library
-# install.packages("extrafont")
+#### To change the font we need, we install the library
+#### install.packages("extrafont")
 
-# the font library is loaded
+#### the font library is loaded
 ```R
 library(extrafont)
+```
+
+# Visualization of our plot
+```R
+graph2
+```
+
+# We add boxplot to group by gender and Gross placing a medium transparency
+```R
+graphfull <- graph2 + geom_boxplot(alpha=0.2,  outlier.colour = NA)
+```
+
+# Visualization of our plot
+```R
+graphfull
 ```
 
 

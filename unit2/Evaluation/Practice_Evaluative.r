@@ -42,3 +42,13 @@ graph2 <- graph + geom_jitter(aes(color=Studio, size= Budget...mill.)) +
   scale_size_continuous(range = c(2, 5),                         
                         trans = scales::exp_trans(base = 1.2))
 
+# Visualization of our plot
+graph2
+
+# We add boxplot to group by gender and Gross placing a medium transparency
+graphfull <- graph2 + geom_boxplot(alpha=0.2,  outlier.colour = NA)
+
+# Visualization of our plot
+graphfull
+
+
