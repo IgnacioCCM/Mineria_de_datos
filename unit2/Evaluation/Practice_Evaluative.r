@@ -59,3 +59,13 @@ titlegraph
 
 # We put the name of the X and Y axes
 titlegraph_name  <- titlegraph + xlab("Genre") + ylab("Gross % US") 
+
+# Visualization of our plot
+titlegraph_name 
+
+# We add the theme for the labels
+graph_theme <-titlegraph_name  + theme(axis.title.x = element_text(color = "Purple", size=15),
+                                       axis.title.y = element_text(color = "Purple", size=15),
+                                       plot.title= element_text(size = 25,hjust=0.5)
+                                       ,text = element_text(family ="Comic Sans MS")
+) + labs(size="Budget $ M")
