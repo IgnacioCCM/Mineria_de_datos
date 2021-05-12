@@ -47,20 +47,53 @@ fonts()
 GenreF<-filter(dataset, Genre %in% c("action","adventure","animation","comedy", "drama"))
 ```
 
-# Visualization of our plot
+#### Visualization of our plot
 ```R
 graph2
 ```
 
-# We add boxplot to group by gender and Gross placing a medium transparency
+#### We add boxplot to group by gender and Gross placing a medium transparency
 ```R
 graphfull <- graph2 + geom_boxplot(alpha=0.2,  outlier.colour = NA)
 ```
 
-# Visualization of our plot
+#### Visualization of our plot
 ```R
 graphfull
 ```
 
+#### We place the title of our plot.
+```R
+titlegraph <- graphfull + ggtitle("Domestic Gross % by Genre")
+```
+
+#### Visualization of our plot.
+```R
+titlegraph
+```
+
+#### We put the name of the X and Y axes.
+```R
+titlegraph_name  <- titlegraph + xlab("Genre") + ylab("Gross % US") 
+```
+
+#### Visualization of our plot.
+```R
+titlegraph_name 
+```
+
+#### We add the theme for the labels.
+```R
+graph_theme <-titlegraph_name  + theme(axis.title.x = element_text(color = "Purple", size=14),
+                                      axis.title.y = element_text(color = "Purple", size=14),
+                                      plot.title= element_text(size = 20,hjust=0.5)
+                                      ,text = element_text(family ="Comic Sans MS")
+) + labs(size="Budget $ M")
+```
+
+#### Visualization of our theme plot.
+```R
+graph_theme
+```
 
 
