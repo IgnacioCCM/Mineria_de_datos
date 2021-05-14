@@ -8,6 +8,9 @@ https://github.com/jcromerohdz/DataMining/blob/master/Datasets/Project-Data.csv
 - All Genres (Genre) and studies (Studio) will be used.
 - The dataframe will be filtered after importing the csv file.
 
+If you want to experiment and see the results on the screen, you can visit this link for the corresponding explanation:
+https://www.youtube.com/watch?v=DyESMZ3bJTE&t=21s
+
 #### We load the data from the dataframe into a variable to execute its values and give it the corresponding view
 #### Project-Data.csv
 ```R
@@ -96,4 +99,6 @@ graph_theme <-titlegraph_name  + theme(axis.title.x = element_text(color = "Purp
 graph_theme
 ```
 
+#### Conclution
 
+Although in the instructions that they left us nothing came from the facilities or the data states, we had the idea of incorporating other libraries which made the analysis and data structure possible in a more visual way. And as can be seen, the most generalized Gross guidelines are for Action films by Fox, Wb and Universal. And the lowest of all the drama ones, indicating that the population is not so popular in its region, but its data is stable with a percentage of approximately 45%. Those of adventure variation, since they are outside the percentage range established in the candlestick chart.
