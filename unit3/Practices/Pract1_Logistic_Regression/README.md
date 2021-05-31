@@ -120,21 +120,12 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
+![image](https://user-images.githubusercontent.com/60414250/120239721-c0d0ab00-c213-11eb-8b99-bcd06df4d62f.png)
+
+
 #### Conclution
 The stability of the code in showing the logistic regression of a dataframe was shown set of their values that were somewhat stable, with the data taken
 of 70% that your salary is estimated at your age in the main test called
 Training. And above the rest with the name test_set. indicating that it varies depending
 of your age.
-=======
-=======
->>>>>>> e428ca415402621eab4fd85108b6da49503cffe3
 
-![image](https://user-images.githubusercontent.com/60414250/120239721-c0d0ab00-c213-11eb-8b99-bcd06df4d62f.png)
-
-
-<<<<<<< HEAD
->>>>>>> e428ca415402621eab4fd85108b6da49503cffe3
-=======
->>>>>>> e428ca415402621eab4fd85108b6da49503cffe3
