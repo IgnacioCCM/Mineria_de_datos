@@ -1,6 +1,6 @@
 ## Practice 1 Logistic Regression
 
-#### Importing the dataset
+#### We load the data from the dataframe in a variable to execute its values and give it the corresponding view and it will take those that we will need in reference to its columns.
 ```R
 dataset <- read.csv(file.choose())
 dataset
@@ -8,6 +8,7 @@ dataset <- dataset[, 3:5]
 dataset
 ```
 #### Splitting the dataset into the Training set and Test set
+#### Divide the data set into the training set and test set. But first you have to install the caTool library.
 #### Install.packages('caTools')
 ```R
 library(caTools)
@@ -16,18 +17,18 @@ split <- sample.split(dataset$Purchased, SplitRatio = 0.75)
 training_set <- subset(dataset, split == TRUE)
 test_set <- subset(dataset, split == FALSE)
 ```
-#### Feature scaling
+#### Feature scaling , We scale the already trained characteristics and show the same variable but with taking care of the structure of the columns shown from 1 to 2.
 ```R
 training_set[, 1:2] <- scale(training_set[, 1:2])
 test_set[, 1:2] <- scale(test_set[, 1:2])
 ```
-#### Fitting Logistic Regression to Training set
+#### Adaptation of logistic regression to the training system.
 ```R
 classifier = glm(formula = Purchased ~ .,
 family = binomial,
 data = training_set)
 ```
-#### Predicting the Test set results
+#### We predict the results, if the test is greater than 0.5 or we mark it as the indicated, 1 and if not 0.
 ```R
 prob_pred = predict(classifier, type = 'response', newdata = test_set[-3])
 prob_pred
@@ -40,8 +41,7 @@ cm = table(test_set[, 3], y_pred)
 cm
 ```
 
-
-#### 
+#### Once the probability is generated, we will release the estimate of the salary and push in the graphs thanks to the glm method.
 ```R
 library(ggplot2)
 ggplot(training_set, aes(x=EstimatedSalary, y=Purchased)) + geom_point() + 
@@ -66,7 +66,22 @@ install.packages('ElemStatLearn')
 ```
 #### manual mode. Go to this URL https://cran.r-project.org/src/contrib/Archive/ElemStatLearn/
 #### Download with the latest date 2019-08-12 09:20	12M
-#### Then follow this page steps https://riptutorial.com/r/example/5556/install-package-from-local-source
+#### Then follow this page steps https://riptutorial.com/r/example/5556/install-package-from-local-source 
+
+Now we download the Elementat Learn library that was created to give you the
+visualization of the most logistics data possible, in giving a format to the creation of
+the graphs and the behavior of the data. In the following link I show you that
+this liberia has its instructions:
+https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf
+
+It only assigns the values of the already trained data set to the axes, X1 Y
+X2. Selecting the minimum and maximum of each column. and Expanding.
+And at the end of the plot it is printed what is that the structure of x1 and x2 with the concepts and
+graph adjustment.
+Printing at the end the corresponding to if prob_set is probability is greater than 0.5
+or less will print it is Age and Estimated salary. and another part if it will not answer you
+with the set of the columns in gree4 if it is has probability of 1 and if not red3.
+
 ```R
 library(ElemStatLearn)
 set = training_set
@@ -105,7 +120,21 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
+<<<<<<< HEAD
+<<<<<<< HEAD
+#### Conclution
+The stability of the code in showing the logistic regression of a dataframe was shown set of their values that were somewhat stable, with the data taken
+of 70% that your salary is estimated at your age in the main test called
+Training. And above the rest with the name test_set. indicating that it varies depending
+of your age.
+=======
+=======
+>>>>>>> e428ca415402621eab4fd85108b6da49503cffe3
 
 ![image](https://user-images.githubusercontent.com/60414250/120239721-c0d0ab00-c213-11eb-8b99-bcd06df4d62f.png)
 
 
+<<<<<<< HEAD
+>>>>>>> e428ca415402621eab4fd85108b6da49503cffe3
+=======
+>>>>>>> e428ca415402621eab4fd85108b6da49503cffe3
