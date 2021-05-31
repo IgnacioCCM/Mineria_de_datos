@@ -56,6 +56,10 @@ ggplot(test_set, aes(x=EstimatedSalary, y=Purchased)) + geom_point() +
 ggplot(test_set, aes(x=Age, y=Purchased)) + geom_point() + 
   stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE)
 ```
+
+![image](https://user-images.githubusercontent.com/60414250/120239630-86670e00-c213-11eb-95f2-6cb50751b571.png)
+
+
 #### Visualization the Training set result
 ```R
 install.packages('ElemStatLearn') 
@@ -80,6 +84,9 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
+
+![image](https://user-images.githubusercontent.com/60414250/120239699-adbddb00-c213-11eb-8cf5-401f0305776e.png)
+
 #### Visualising the Test set results
 ```R
 library(ElemStatLearn)
@@ -98,3 +105,7 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
+
+![image](https://user-images.githubusercontent.com/60414250/120239721-c0d0ab00-c213-11eb-8b99-bcd06df4d62f.png)
+
+
