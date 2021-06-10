@@ -65,6 +65,8 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
+|![image](1.png)|![image](2.png) |
+
 #### We will observe the results thanks to the test, giving the structure to the graph with stable determinations for its visualization. We import ElemStatLear to show the grouping by model trees, we assign set the test data, then we assign the values for our groups marking the min and max, we assign the columns of which we want to make the decision, we add the prediction and then we make the plot of these data, we give the plot the columns of the set that we want it to take, the dividing line created by contour and the last point what it does is that it colors the points according to the set to assign them the color they should have according to your prediction.
 ```R
 library(ElemStatLearn)
