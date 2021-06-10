@@ -84,7 +84,7 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
-|![image](5.png)|![image](6.png)|
+![image](5.png)![image](6.png)
 |![image](7.png)|![image](8.png)|
 
 #### These two lines show the decisions made by the tree to perform the grouping taking into account our classifier variable that contains the model and the training data.
@@ -92,8 +92,8 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 plot(classifier)
 text(classifier, cex=0.6)
 ```
-![image](https://user-images.githubusercontent.com/60414250/120239721-c0d0ab00-c213-11eb-8b99-bcd06df4d62f.png)
 
+![image](9.png)
 
 #### Conclution
 Visualize data if it is necessary to group and see the flow of decisions made by the tree so that it can perform automatic groupings and in this case a few parameters were needed to the structure of the decision tree model to arrive at the estimated price that can be analyzed for draw our conclusions.
