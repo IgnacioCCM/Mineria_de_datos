@@ -1,11 +1,7 @@
 # Support Vector Machine (SVM)
 # Set our workspace
-getwd()
-setwd("/home/chris/Documents/itt/Enero_Junio_2020/Mineria_de_datos/DataMining/MachineLearning/SVM")
-getwd()
-
 # Importing the dataset
-dataset = read.csv('Social_Network_Ads.csv')
+dataset = read.csv(file.choose())
 dataset = dataset[3:5]
 
 # Encoding the target feature as factor
