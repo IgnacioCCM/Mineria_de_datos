@@ -78,3 +78,12 @@ graph_theme <-titlegraph_name  + theme(axis.title.x = element_text(color = "Purp
 
 # Visualization of our theme plot.
 graph_theme
+
+# #### Conclution
+
+# Although in the instructions that they left us nothing came from the facilities or the data states, 
+# we had the idea of incorporating other libraries which made the analysis and data structure possible 
+# in a more visual way. And as can be seen, the most generalized Gross guidelines are for Action films 
+# by Fox, Wb and Universal. And the lowest of all the drama ones, indicating that the population is not 
+# so popular in its region, but its data is stable with a percentage of approximately 45%. Those of adventure 
+# variation, since they are outside the percentage range established in the candlestick chart.
