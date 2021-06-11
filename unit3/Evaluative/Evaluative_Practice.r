@@ -1,10 +1,12 @@
 # EVALUATIVE PRACTICE 
 
-### Loaduing dataset
+#### Calculates the conditional probabilities of each word separately, as if they were independent of each other.
+
+### Loading dataset
 dataset = read.csv(file.choose())
-###Select data
+### Select data
 dataset = dataset[3:5]
-###we pushed data factor 
+### We pushed data factor 
 dataset$Purchased = factor(dataset$Purchased, levels = c(0, 1))
 
 install.packages('caTools')
@@ -18,6 +20,7 @@ training_set[-3] = scale(training_set[-3])
 test_set[-3] = scale(test_set[-3])
 
 #install.packages('e1071')
+### The e1071 library contains implementations for various statistical learning methods, in particular the svm () function, a support vector classifier when using the kernel = "linear" argument. A cost argument allows us to specify the cost of violation to the margin, when the cost argument is small, then the margins will be wide.
 library(e1071)
 classifier = naiveBayes(formula = Purchased ~ .,
                         data = training_set,
