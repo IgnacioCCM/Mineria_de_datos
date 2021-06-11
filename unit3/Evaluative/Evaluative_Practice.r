@@ -26,3 +26,6 @@ classifier = naiveBayes(formula = Purchased ~ .,
 
 y_pred = predict(classifier, newdata = test_set[-3])
 y_pred
+
+cm = table(test_set[, 3], y_pred)
+cm
