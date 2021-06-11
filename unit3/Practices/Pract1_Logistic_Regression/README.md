@@ -124,8 +124,5 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 
 
 #### Conclution
-The stability of the code in showing the logistic regression of a dataframe was shown set of their values that were somewhat stable, with the data taken
-of 70% that your salary is estimated at your age in the main test called
-Training. And above the rest with the name test_set. indicating that it varies depending
-of your age.
+The stability of the code in showing the logistic regression of a dataframe was shown set of their values that were somewhat stable, with the data taken of 70% that your salary is estimated at your age in the main test called Training. And above the rest with the name test_set. indicating that it varies depending of your age.
 

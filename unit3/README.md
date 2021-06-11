@@ -9,7 +9,7 @@
 
    * [Practice 4.- Random Forest Classification](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit3/unit3/Practices/Pract4_Random_forest)
 
-   * [Practice 5.- Support Vector Machine (SVM)](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit3/unit3/Practices/Pract4_Random_forest)
+   * [Practice 5.- Support Vector Machine (SVM)](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit3/unit3/Practices/Pract5_SVM)
    
 * ## Investigation
    * [Investigacion1.- What is the goal of the Euclidean distance for the K-Nearest Neighbors (K-NN) machine learning model?](https://github.com/IgnacioCCM/Mineria_de_datos/tree/unit3/unit3/Investigation)
