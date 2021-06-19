@@ -21,3 +21,17 @@ plot(1:10,
 set.seed(29)
 kmeans = kmeans(x = dataset, centers = 4)
 y_kmeans = kmeans$cluster
+
+# we add the classification graph
+library(cluster)
+clusplot(dataset,
+         y_kmeans,
+         lines = 0,
+         shade = TRUE,
+         color = TRUE,
+         labels = 2,
+         plotchar = FALSE,
+         span = TRUE,
+         main = paste('Clasification of iris'),
+         xlab = 'features',
+         ylab = 'Clusters  ')
