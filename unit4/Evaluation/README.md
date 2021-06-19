@@ -44,7 +44,7 @@ clusplot(dataset,
          main = paste('Clasification of iris'),
          xlab = 'features',
          ylab = 'Clusters  ')
-         ```
+```
 
 Results
 
