@@ -16,3 +16,8 @@ plot(1:10,
      main = paste('The Elbow Method'),
      xlab = 'Number of clusters',
      ylab = 'WCSS')
+
+# Fitting K-Means to the dataset
+set.seed(29)
+kmeans = kmeans(x = dataset, centers = 4)
+y_kmeans = kmeans$cluster
