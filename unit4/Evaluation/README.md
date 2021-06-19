@@ -45,3 +45,16 @@ clusplot(dataset,
          xlab = 'features',
          ylab = 'Clusters  ')
          ```
+
+Results
+
+![image](https://user-images.githubusercontent.com/60414250/122657868-051ce000-d11c-11eb-9567-c6727101edd4.png)
+
+![image](https://user-images.githubusercontent.com/60414250/122657878-1c5bcd80-d11c-11eb-9f26-46acef28de2e.png)
+
+
+conclusion
+
+Se puede concluir que gracias a este método de estructura K-means se observó un análisis detallado por categoría en la intervención de la data set de Iris, por lo que cada conjunto es muy similar entre ellos; pero excepto el de color morado ya que este demuestra una calidez baja menor en sus características  demostrando aparte su cantidad de racismo es mas estable que todos los demás, en lo cual no comparte ninguno de sus miembros, ya que esta muy separado. 
+
+
